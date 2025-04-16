@@ -82,7 +82,7 @@ export default function About() {
 				// { name: "React query", image: "reactquery.svg" },
 				// { name: "React router", image: "reactrouter.svg" },
 				// { name: "Redux", image: "redux.svg" },
-				// { name: "React Native", image: "react.svg" },
+				{ name: "React Native", image: "react.svg" },
 			],
 		},
 		{
@@ -95,9 +95,9 @@ export default function About() {
 			skill: [
 				{ name: "Node.js", image: "nodejs.svg" },
 				// { name: "Express.js", image: "expressjs.svg" },
-				// { name: "Next.js", image: "nextjs_icon_dark.svg" },
-				// { name: "MongoDB", image: "mongodb.svg" },
-				// { name: "JWT", image: "jwt.svg" },
+				{ name: "Next.js", image: "nextjs_icon_dark.svg" },
+				{ name: "MongoDB", image: "mongodb.svg" },
+				{ name: "JWT", image: "jwt.svg" },
 				// { name: "AWS", image: "aws.svg" },
 				// { name: "Docker", image: "docker.svg" },
 				// { name: "Nginix", image: "nginx.png" },
@@ -105,7 +105,7 @@ export default function About() {
 				// { name: "Socket.io", image: "socket.webp" },
 				// { name: "Web RTC", image: "webrtc.png" },
 				// { name: "GraphQL", image: "graphql.png" },
-				// { name: "Prisma", image: "prisma.svg" },
+				{ name: "Prisma", image: "prisma.svg" },
 
 				// { name: "Firebase", image: "firebase.svg" },
 			],
@@ -519,11 +519,9 @@ export default function About() {
 				</section>
 			</div>
 
-			{/* <!--
-        - clients
-      --> */}
+			{/* clients */}
 
-			{/* <section className="clients">
+			<section className="clients">
 				<h3 className="h3 clients-title">Clients</h3>
 
 				<ul className="clients-list has-scrollbar">
@@ -563,7 +561,7 @@ export default function About() {
 						</a>
 					</li>
 				</ul>
-			</section> */}
+			</section>
 		</article>
 	);
 }
