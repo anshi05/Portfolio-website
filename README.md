@@ -20,7 +20,15 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React.js, Tailwind CSS
+  | 🛠️ Technology     | 💬 Description                                  |
+|-------------------|--------------------------------------------------|
+| **React**         | Component-based JavaScript library for UI        |
+| **Tailwind CSS**  | Utility-first CSS framework for rapid styling    |
+| **Radix UI**      | Accessible, unstyled UI primitives                |
+| **Framer Motion** | Powerful motion and animation library for React  |
+| **Lucide Icons**  | Beautifully simple open-source icon library      |
+<br>
+
 
 ## 📂 Project Structure
 
@@ -28,6 +36,16 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 .
 ├── public/          # Static assets (images, fonts, etc.)
 ├── src/             # Source code for components and logic
+│   ├── App.css            # Global CSS styles
+│   ├── App.jsx            # Main application component
+│   ├── assets/            # Assets like project data
+│   │   ├── Projects.js    # Project data for the portfolio
+│   │   └── ... (other assets)
+│   ├── components/        # Reusable React components
+│   ├── lib/               # Utility functions
+│   ├── pages/             # Page components for routing
+│   ├── main.jsx           # Entry point for the React app
+│   └── index.css          # Tailwind CSS styles
 ├── index.html       # Main HTML file
 ├── package.json     # Project dependencies and scripts
 ├── tailwind.config.js # Tailwind CSS configuration
@@ -93,6 +111,8 @@ Check out the live version of my portfolio [here](https://drive.google.com/file/
 </a>
 </p>
 <br>
+
+
 ---
 
 Thank you for visiting my portfolio! Feel free to reach out if you'd like to collaborate or have any questions.
