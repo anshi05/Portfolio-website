@@ -1,5 +1,6 @@
 <div align="center">
-
+<img src="/src/assets/logo.ico" alt="Portfolio" width="120"/>
+<h1>✨Portfolio Website✨</h1>
    
  [Live Demo Link](https://drive.google.com/file/d/1mdk_gFQN0HtFmN8joD7CsWx9dhhP4f_j/view?usp=sharing)
 
@@ -73,7 +74,7 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
    ```
 3. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 4. Open your browser and navigate to `http://localhost:3000`.
 
