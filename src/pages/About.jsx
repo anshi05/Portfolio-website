@@ -351,7 +351,7 @@ export default function About() {
 						<div className="content-card" data-testimonials-item>
 							<figure className="testimonials-avatar-box">
 								<img
-									src="avatar-1.png"
+									src="/avatar/avatar-1.png"
 									alt="Daniel lewis"
 									width="60"
 									data-testimonials-avatar
@@ -382,7 +382,7 @@ export default function About() {
 						<div className="content-card" data-testimonials-item>
 							<figure className="testimonials-avatar-box">
 								<img
-									src="avatar-2.png"
+									src="/avatar/avatar-2.png"
 									alt="Jessica miller"
 									width="60"
 									data-testimonials-avatar
@@ -413,7 +413,7 @@ export default function About() {
 						<div className="content-card" data-testimonials-item>
 							<figure className="testimonials-avatar-box">
 								<img
-									src="avatar-3.png"
+									src="/avatar/avatar-3.png"
 									alt="Emily evans"
 									width="60"
 									data-testimonials-avatar
@@ -444,7 +444,7 @@ export default function About() {
 						<div className="content-card" data-testimonials-item>
 							<figure className="testimonials-avatar-box">
 								<img
-									src="avatar-4.png"
+									src="/avatar/avatar-4.png"
 									alt="Henry william"
 									width="60"
 									data-testimonials-avatar

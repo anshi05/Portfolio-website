@@ -1,8 +1,6 @@
 import React from "react";
-import { redirect, useNavigate } from "react-router";
+import { useNavigate } from "react-router";
 import LikeButton from "../components/LikeButton";
-import OrbitingImages from "../components/OrbitingImages";
-import TerminalComponent from "./TerminalComponent";
 import Resume from "../components/homeComponents/Resume";
 import Skills from "../components/homeComponents/Skills";
 import Quotes from "../components/homeComponents/Quotes";
@@ -82,7 +80,7 @@ export default function Home() {
 				<div className="home-social-media lg:flex md:flex grid grid-rows-2 grid-cols-2  flex-wrap gap-4 text-white md:gap-4">
 					<div
 						onClick={() =>
-							window.open("https://www.linkedin.com/in/sahil-mengji", "_blank")
+							window.open("https://www.linkedin.com/in/anshi-sachan", "_blank")
 						}
 						className="homebox flex-1 flex items-center justify-center p-4 md:w-1/4"
 					>
@@ -93,7 +91,7 @@ export default function Home() {
 					</div>
 					<div
 						onClick={() =>
-							window.open("https://www.github.com/sahil-mengji", "_blank")
+							window.open("https://www.github.com/anshi05", "_blank")
 						}
 						className="homebox flex-1 flex items-center justify-center p-4 md:w-1/4"
 					>
@@ -102,12 +100,6 @@ export default function Home() {
 							<a href="https://github.com/anshi05">Github</a>
 						</div>
 					</div>
-					{/* <div className="homebox ">
-					<div className="homebox flex-1 flex items-center justify-center p-4 md:w-1/4">
-						<div>
-							<ion-icon name="logo-instagram"></ion-icon> Instagram
-						</div>
-					</div> */}
 					<div className="homebox flex-1 flex items-center justify-center p-4 md:w-1/4">
 						<div>
 							<ion-icon name="logo-medium"></ion-icon>
@@ -115,7 +107,6 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-
 				<Resume />
 				<Skills />
 				<Quotes />
