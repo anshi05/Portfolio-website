@@ -60,7 +60,7 @@ export default function About() {
 			),
 			skill: [
 				{ name: "Javascript", image: "javascript.svg" },
-				// { name: "Typescript", image: "typescript.svg" },
+				{ name: "Typescript", image: "typescript.svg" },
 				{ name: "C++", image: "c++.svg" },
 				{ name: "C", image: "c.svg" },
 				{ name: "Python", image: "python.svg" },
@@ -79,9 +79,6 @@ export default function About() {
 				{ name: "Tailwind css", image: "tailwindcss.svg" },
 				{ name: "Shadcn-ui", image: "shadcn-ui.svg" },
 				{ name: "React", image: "react.svg" },
-				// { name: "React query", image: "reactquery.svg" },
-				// { name: "React router", image: "reactrouter.svg" },
-				// { name: "Redux", image: "redux.svg" },
 				{ name: "React Native", image: "react.svg" },
 			],
 		},
@@ -94,20 +91,10 @@ export default function About() {
 			),
 			skill: [
 				{ name: "Node.js", image: "nodejs.svg" },
-				// { name: "Express.js", image: "expressjs.svg" },
 				{ name: "Next.js", image: "nextjs_icon_dark.svg" },
 				{ name: "MongoDB", image: "mongodb.svg" },
 				{ name: "JWT", image: "jwt.svg" },
-				// { name: "AWS", image: "aws.svg" },
-				// { name: "Docker", image: "docker.svg" },
-				// { name: "Nginix", image: "nginx.png" },
-				// { name: "Kalfka", image: "kalfka.png" },
-				// { name: "Socket.io", image: "socket.webp" },
-				// { name: "Web RTC", image: "webrtc.png" },
-				// { name: "GraphQL", image: "graphql.png" },
 				{ name: "Prisma", image: "prisma.svg" },
-
-				// { name: "Firebase", image: "firebase.svg" },
 			],
 		},
 		{
@@ -120,16 +107,16 @@ export default function About() {
 
 			skill: [
 				{ name: "Github", image: "github.svg" },
-				// { name: "NPM", image: "npm.svg" },
-				{ name: "VS Code", image: "vscode.svg" },
-				// { name: "Linux", image: "linux.svg" },
-				{ name: "Figma", image: "figma.svg" },
-				// { name: "Illustrator", image: "illustrator.svg" },
+				{ name: "VS Code", image: "vscode.svg" },		
+				{ name: "Figma", image: "figma.svg" },				
 			],
 		},
 	];
 	return (
 		<article className="about  active" data-page="about">
+
+			{/* About Me */}
+			
 			<header>
 				<h2 className="h2 article-title cristik font-extralight">About me</h2>
 			</header>
@@ -145,6 +132,8 @@ export default function About() {
 					crafting dynamic and innovative web solutions.
 				</p>
 			</section>
+
+			{/* Services */}
 
 			<section className="service">
 				<h3 className="h3 service-title ">What i Do ?</h3>
@@ -180,37 +169,10 @@ export default function About() {
 							</p>
 						</div>
 					</li>
-
-					{/* <li className="service-item">
-						<div className="service-icon-box">
-							<img src="icon-app.svg" alt="mobile app icon" width="40" />
-						</div>
-
-						<div className="service-content-box">
-							<h4 className="h4 service-item-title">Mobile apps Development</h4>
-
-							<p className="service-item-text">
-								Professional development of applications for iOS and Android.
-							</p>
-						</div>
-					</li>
-
-					<li className="service-item">
-						<div className="service-icon-box text-[30px] text-[#ffcb66]">
-							<ion-icon name="cube-outline"></ion-icon>
-						</div>
-
-						<div className="service-content-box">
-							<h4 className="h4 service-item-title">Product Design</h4>
-
-							<p className="service-item-text">
-								I make high-quality photos of any category at a professional
-								level.
-							</p>
-						</div>
-					</li> */}
 				</ul>
 			</section>
+
+			{/* Experience */}
 
 			<section className="timeline">
 				<div className="title-wrapper">
@@ -248,7 +210,11 @@ export default function About() {
 					))}
 				</ol>
 			</section>
+
 			<div className="separator"></div>
+
+			{/* Skills */}
+
 			<section className="skill ">
 				<div className="title-wrapper ">
 					<div className="icon-box mr-4">
@@ -280,7 +246,11 @@ export default function About() {
 					))}
 				</ol>
 			</section>
+
 			<div className="separator"></div>
+
+			{/* Education */}
+
 			<section className="timeline">
 				<div className="title-wrapper">
 					<div className="icon-box">
@@ -330,18 +300,10 @@ export default function About() {
 						</div>
 					</li>
 
-					
 				</ol>
 			</section>
 
-			{/* 
-      <!--
-        - service
-      --> */}
-
-			{/* <!--
-        - testimonials
-      --> */}
+			{/* Testimonials */}
 
 			<section className="testimonials">
 				<h3 className="h3 testimonials-title">Testimonials</h3>
@@ -472,11 +434,6 @@ export default function About() {
 					</li>
 				</ul>
 			</section>
-
-			{/* 
-      <!--
-        - testimonials modal
-      --> */}
 
 			<div className="modal-container" data-modal-container>
 				<div className="overlay" data-overlay></div>
