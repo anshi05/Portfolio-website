@@ -8,14 +8,14 @@ export default function Blog() {
 			</header>
 
 			{/* Blogs */}
-			
+
 			<section className="blog-posts">
 				<ul className="blog-posts-list">
 					<li className="blog-post-item">
 						<a href="#">
 							<figure className="blog-banner-box">
 								<img
-									src="blog-1.jpg"
+									src="/blogs/blog-1.jpg"
 									alt="Design conferences in 2022"
 									loading="lazy"
 								/>
@@ -46,7 +46,7 @@ export default function Blog() {
 						<a href="#">
 							<figure className="blog-banner-box">
 								<img
-									src="blog-2.jpg"
+									src="/blogs/blog-2.jpg"
 									alt="Best fonts every designer"
 									loading="lazy"
 								/>
@@ -76,7 +76,7 @@ export default function Blog() {
 					<li className="blog-post-item">
 						<a href="#">
 							<figure className="blog-banner-box">
-								<img src="blog-3.jpg" alt="Design digest #80" loading="lazy" />
+								<img src="/blogs/blog-3.jpg" alt="Design digest #80" loading="lazy" />
 							</figure>
 
 							<div className="blog-content">
@@ -102,7 +102,7 @@ export default function Blog() {
 						<a href="#">
 							<figure className="blog-banner-box">
 								<img
-									src="blog-4.jpg"
+									src="/blogs/blog-4.jpg"
 									alt="UI interactions of the week"
 									loading="lazy"
 								/>
@@ -133,7 +133,7 @@ export default function Blog() {
 						<a href="#">
 							<figure className="blog-banner-box">
 								<img
-									src="blog-5.jpg"
+									src="/blogs/blog-5.jpg"
 									alt="The forgotten art of spacing"
 									loading="lazy"
 								/>
@@ -163,7 +163,7 @@ export default function Blog() {
 					<li className="blog-post-item">
 						<a href="#">
 							<figure className="blog-banner-box">
-								<img src="blog-6.jpg" alt="Design digest #79" loading="lazy" />
+								<img src="/blogs/blog-6.jpg" alt="Design digest #79" loading="lazy" />
 							</figure>
 
 							<div className="blog-content">
