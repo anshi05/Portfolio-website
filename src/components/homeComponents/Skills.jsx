@@ -19,7 +19,9 @@ export default function Skills() {
 				</span>
 
 				<span className="opacity-75 text-sm sm:text-base md:text-[16px] leading-6 text-yellow-200 font-thin">
+					<a href="/about">
 					See What all I can do →
+					</a>
 				</span>
 			</p>
 

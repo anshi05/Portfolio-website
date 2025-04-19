@@ -11,7 +11,9 @@ export default function Projects() {
 				Projects
 			</div>
 			<p className="opacity-75 lg:text-[16px] md:text-[10px] leading-6 text-yellow-200 font-thin">
+				<a href="/portfolio">
 				Take a Look at the Various Projets that i have made →
+				</a>
 			</p>
 			</a>
 			<div className="absolute bottom-[-60px] ">

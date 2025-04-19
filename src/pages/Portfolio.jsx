@@ -15,6 +15,8 @@ export default function Portfolio({ sheetHandler }) {
 				<h2 className="h2 article-title spacegrotesk">Portfolio</h2>
 			</header>
 
+			{/* Projects Category*/}
+
 			<section className="projects">
 				<ul className="filter-list">
 					<li className="filter-item">
@@ -68,6 +70,7 @@ export default function Portfolio({ sheetHandler }) {
 					</li>
 				</ul>
 
+				{/* Filter Select Box */}
 				<div className="filter-select-box">
 					<button className="filter-select" data-select>
 						<div className="select-value" data-selecct-value>
@@ -98,6 +101,7 @@ export default function Portfolio({ sheetHandler }) {
 					</ul>
 				</div>
 
+				{/* Projects */}
 				<div className="grid  md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-4 cursor-pointer">
 					{filterProjects.map((project) => (
 						<div

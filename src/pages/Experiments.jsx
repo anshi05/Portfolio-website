@@ -7,6 +7,8 @@ export default function Experiments() {
 			<header>
 				<h2 className="h2 article-title">Experiments</h2>
 			</header>
+
+			{/* Todo */}
 			<div className="w-full h-[80vh] justify-center items-center flex flex-col text-white text-4xl ">
 				<div className="flex justify-center gap-8 text-6xl text-yellow-300">
 					<ion-icon name="flask-outline"></ion-icon>

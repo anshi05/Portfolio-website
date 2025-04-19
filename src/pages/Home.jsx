@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigate } from "react-router";
 import LikeButton from "../components/LikeButton";
 import Resume from "../components/homeComponents/Resume";
 import Skills from "../components/homeComponents/Skills";
@@ -9,7 +8,6 @@ import Library from "../components/homeComponents/Library";
 import Showcase from "../components/homeComponents/Showcase";
 
 export default function Home() {
-	const navigate = useNavigate();
 
 	return (
 		<article className="  active" id="homearticle">
@@ -27,6 +25,8 @@ export default function Home() {
 						</p>
 					</h2>
 				</header>
+
+				{/* Intro */}
 
 				<section className="about-text mb-0 pb-0">
 					<p className="flex gap-1 sm:gap-2 text-xl sm:text-2xl md:text-3xl items-center">
@@ -67,6 +67,7 @@ export default function Home() {
 					
 				</div>
 				
+				{/* Like button */}
 
 				<div className="showcase homebox   relative overflow-hidden">
 					<p className="text-white cristik p-4 lg:text-2xl md:text-2xl text-xl">
@@ -77,6 +78,9 @@ export default function Home() {
 						<LikeButton />
 					</div>
 				</div>
+
+				{/* social Media Links */}
+
 				<div className="home-social-media lg:flex md:flex grid grid-rows-2 grid-cols-2  flex-wrap gap-4 text-white md:gap-4">
 					<div
 						onClick={() =>
@@ -107,6 +111,9 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
+
+				{/* other sections */}
+
 				<Resume />
 				<Skills />
 				<Quotes />

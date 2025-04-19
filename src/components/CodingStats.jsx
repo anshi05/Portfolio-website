@@ -76,16 +76,16 @@ const CodingStats = ({ leetcodeHandle, codeforcesHandle }) => {
 					leetcodeStats?.hardSolved || 0,
 				],
 				backgroundColor: [
-					"#22c55e", // Green
-					"#eab308", // Yellow
-					"#ef4444", // Red
+					"#254545", // Easy
+					"#534520", // Medium
+					"#512b2b", // Hard
 				],
 				borderColor: [
-					"rgba(0,255,0,1)", // Green
-					"rgba(255,255,0,1)", // Yellow
-					"rgba(255,0,0,1)", // Red
+					"#1cbaba", // Easy
+					"#ffb700", // Medium
+					"#f63737", // Hard
 				],
-				borderWidth: 1,
+				borderWidth: 1.5,
 			},
 		],
 	};
@@ -97,7 +97,7 @@ const CodingStats = ({ leetcodeHandle, codeforcesHandle }) => {
 		cutout: "50%", // Adjust for the speedometer look
 		plugins: {
 			legend: {
-				display: false, // Hide the legend
+				display: false // Hide the legend
 			},
 			tooltip: {
 				callbacks: {
@@ -109,6 +109,8 @@ const CodingStats = ({ leetcodeHandle, codeforcesHandle }) => {
 
 	return (
 		<div className="relative ">
+
+			{/* Codeforces stats */}
 			<div className="flex items-center w-full  justify-evenly">
 				<img
 					className="w-[50px]"
@@ -139,6 +141,8 @@ const CodingStats = ({ leetcodeHandle, codeforcesHandle }) => {
 					</p>
 				</div>
 			</div>
+
+			{/* Leetcode Stats */}
 			<div className="flex items-center w-full  justify-evenly">
 				<img
 					className="w-[50px]"
@@ -147,15 +151,15 @@ const CodingStats = ({ leetcodeHandle, codeforcesHandle }) => {
 				/>
 				<div className="text-white p-4">
 					<p className="flex items-center gap-2">
-						<div className="bg-green-500 w-[16px] h-[16px] rounded-full"></div>
+						<div className="bg-[#1cbaba] w-[16px] h-[16px] rounded-full"></div>
 						Easy - {leetcodeStats.easySolved}
 					</p>
 					<p className="flex items-center gap-2">
-						<div className="bg-yellow-500 w-[16px] h-[16px] rounded-full"></div>
+						<div className="bg-[#ffb700] w-[16px] h-[16px] rounded-full"></div>
 						Medium - {leetcodeStats.mediumSolved}
 					</p>
 					<p className="flex items-center gap-2">
-						<div className="bg-red-500 w-[16px] h-[16px] rounded-full"></div>
+						<div className="bg-[#f63737] w-[16px] h-[16px] rounded-full"></div>
 						Hard - {leetcodeStats.hardSolved}
 					</p>
 				</div>

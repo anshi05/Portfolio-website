@@ -7,6 +7,8 @@ export default function Blog() {
 				<h2 className="h2 article-title">Blog</h2>
 			</header>
 
+			{/* Blogs */}
+			
 			<section className="blog-posts">
 				<ul className="blog-posts-list">
 					<li className="blog-post-item">

@@ -7,6 +7,8 @@ export default function Contact() {
 				<h2 className="h2 article-title">Contact</h2>
 			</header>
 
+			{/* Map */}
+
 			<section className="mapbox" data-mapbox>
 				<figure>
 					<iframe
@@ -20,6 +22,8 @@ export default function Contact() {
 					></iframe>
 				</figure>
 			</section>
+
+			{/* Contact Form */}
 
 			<section className="contact-form">
 				<h3 className="h3 form-title">Contact Form</h3>
@@ -59,7 +63,6 @@ export default function Contact() {
 					</button>
 				</form>
 			</section>
-			<audio src=""></audio>
 		</article>
 	);
 }
