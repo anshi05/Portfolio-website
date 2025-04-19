@@ -53,6 +53,14 @@ const Navbar = () => {
 			),
 		},
 		{
+			path: "/blog",
+			name: (
+				<div className="flex items-center gap-2">
+					<ion-icon name="newspaper-outline"></ion-icon> Blog
+				</div>
+			),
+		},
+		{
 			path: "/contact",
 			name: (
 				<div className="flex items-center gap-2">
